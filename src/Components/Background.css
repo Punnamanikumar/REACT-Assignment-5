@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+body{
+    background:linear-gradient(lightblue,hotpink);
+    min-height: 100vh;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    font-family: 'Allura', cursive;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: white;
+}
+.Header div{
+    cursor: pointer;
+}
+.addbtn{
+    border-radius: 15px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+}
+#studentDetails{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Box{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+.tf1{
+    position: relative;
+    top:70px;
+    left: 25%;
+}
+.tf3{
+    position: relative;
+    top:70px;
+    left: 25%;
+}
+.tf2{
+    position: relative;
+    left: 60%;
+
+}
+.tf4{
+    position: relative;
+    left: 60%;
+}
+.close{
+    background-color: aqua;
+    border: 1px solid black;
+    width: 170px;
+    height: 50px;
+    margin-left:45%;
+    border-radius: 25px;
+    font-size:20px;
+    cursor: pointer;
+
+}
+.update{
+    border: 1px solid black;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size:20px;
+    cursor: pointer;
+}
